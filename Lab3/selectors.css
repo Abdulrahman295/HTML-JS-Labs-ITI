@@ -1,0 +1,68 @@
+/*
+    • em = relative to parent, Example: If parent is 16px and child is 2em → child = 32px
+    • rem = relative to root, Example: 2rem is always 32px (if root is 16px) regardless of nesting          level            
+*/
+
+/* 
+   1. Select p elements and make them red
+*/
+p {
+    color: red;
+}
+
+/* 
+   2. Select p and div elements
+   
+*/
+p,
+div {
+    margin: 10px;
+    padding: 5px;
+}
+
+/* 
+   3. Select p with class mainClass direct child for div with id myDiv
+*/
+div#myDiv>p.mainClass {
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/* 
+   4. Select all p inside div and style them   
+*/
+div p {
+    background-color: #f0f0f0;
+}
+
+/* 
+   5. Select input with type text element with class myClass   
+*/
+input[type="text"].myClass {
+    border: 2px solid green;
+}
+
+/* 
+   6. Select span elements after div   
+*/
+
+div~span {
+    color: purple;
+    font-weight: 500;
+}
+
+/* 
+   7. Select p with class myClass
+*/
+p.myClass {
+    text-decoration: underline;
+    color: orange;
+}
+
+/* 
+   8. Select div with id myDiv
+*/
+div#myDiv {
+    padding: 20px;
+    margin: 15px 0;
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile - Home Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <table>
+        <!-- Header -->
+        <tr>
+            <td colspan="3" class="header">
+                <img src="assets/welcome.png" alt="Website Logo" width="250" height="80">
+            </td>
+        </tr>
+
+        <!-- Navigation -->
+        <tr>
+            <td colspan="3" class="nav">
+                <a href="index.html">Home</a>
+                <a href="contact.html">Contact us</a>
+                <a href="about.html">About</a>
+            </td>
+        </tr>
+
+        <!-- Main Content -->
+        <tr>
+            <!-- Left Column -->
+            <td class="side">
+                <div class="box">
+                    <strong>Login</strong><br>
+                    <label for="username">Username</label>
+                    <input type="text" id="username" placeholder="Username">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="Password">
+                    <input type="submit" value="Login">
+                </div>
+
+                <div class="box">
+                    <b>My Pages online</b>
+                    <a href="https://www.facebook.com" target="_blank">
+                        <img src="assets/facebook-icon.png" class="logo" alt="Facebook">
+                    </a>
+
+                    <a href="https://www.twitter.com" target="_blank">
+                        <img src="assets/twitter-icon.png" class="logo" alt="Twitter">
+                    </a>
+                </div>
+
+                <div class="box">
+                    <strong>Video</strong><br>
+                    <iframe width="560" height="315"
+                        src="https://www.youtube-nocookie.com/embed/l0K4XPu3Qhg?si=klmI3JEU0seWm1SH"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </td>
+
+            <!-- Middle Column -->
+            <td class="main">
+                <h2>My Profile</h2>
+                <ul>
+                    <li>Name:</li>
+                    <li>Age:</li>
+                    <li>Address:</li>
+                    <li>Phones:</li>
+                    <li>Hobbies
+                        <ol>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ol>
+                    </li>
+                    <li>Mail: <a href="mailto:your.email@example.com">mail to your mail</a></li>
+                </ul>
+            </td>
+
+            <!-- Right Column -->
+            <td class="side">
+                <div class="box">
+                    <b>Personal Photo</b><br>
+                    <img src="assets/me.jpg" alt="Photo" class="photo">
+                </div>
+                <div class="box">
+                    <strong>News</strong>
+                    <ul>
+                        <li>Lorem ipsum dolor sit amet.</li>
+                        <li>Lorem ipsum dolor sit amet.</li>
+                        <li>Lorem ipsum dolor sit amet.</li>
+                    </ul>
+                </div>
+            </td>
+        </tr>
+
+        <!-- Footer -->
+        <tr>
+            <td colspan="3" class="footer">
+                <a href="#">Top of page</a><br>
+                Copyrights &copy; are reserved.
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>

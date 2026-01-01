@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    background-color: #5a6b5a;
+    font-family: Arial, sans-serif;
+}
+
+.header,
+.nav,
+.footer {
+    text-align: center;
+    padding: 10px;
+}
+
+.main h2 {
+    color: darkred;
+    text-align: center;
+}
+
+.side {
+    background-color: #8b9a8b;
+    width: 25%;
+    vertical-align: top;
+    padding: 10px;
+}
+
+.main {
+    background-color: #d4d4c4;
+    width: 50%;
+    vertical-align: top;
+    padding: 20px;
+}
+
+.box {
+    background-color: #d4d4c4;
+    border: 1px solid #999;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.box input {
+    width: 90%;
+    margin: 5px 0;
+    padding: 3px;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+    display: block;
+    margin: 5px 0;
+}
+
+.box iframe {
+    width: auto;
+    height: 100px;
+}
+
+.photo {
+    width: auto;
+    height: 200px;
+}
