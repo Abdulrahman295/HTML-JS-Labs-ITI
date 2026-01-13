@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style> 
+        body { 
+            font-family: sans-serif; 
+            display: flex; 
+            justify-content: center; 
+            padding-top: 50px; 
+            background-color: #f4f4f4; 
+        }
+
+        form { 
+            background: white; 
+            padding: 20px; 
+            border-radius: 8px; 
+            box-shadow: 0 0 10px rgba(0,0,0,0.1); 
+            width: 300px; 
+            display: flex; 
+            flex-direction: column; 
+            gap: 15px; 
+        }
+
+        input, select { 
+            padding: 8px; 
+            border: 1px solid #ccc; 
+            border-radius: 4px; 
+        }
+    </style>
+
+</head>
+<body>
+    <form id="regForm">
+        <input type="text" id="name" placeholder="Full Name" required>
+        
+        <select id="title" required>
+            <option value="" disabled selected>Select Title</option>
+            <option value="Mr.">Mr.</option>
+            <option value="Ms.">Ms.</option>
+            <option value="Dr.">Dr.</option>
+        </select>
+
+        <select id="gender" required>
+            <option value="" disabled selected>Select Gender</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select>
+
+        <input type="email" id="email" placeholder="Email Address" required>
+        <input type="tel" id="mobile" placeholder="Mobile Number" required>
+        <input type="text" id="address" placeholder="Address" required>
+
+        <button type="submit">Register</button>
+    </form>
+    <script src ="register.js"></script>
+</body>
+</html>
